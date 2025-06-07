@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Chen - ICT Student Portfolio</title>
+  <body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Alex Chen</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Alex Chen</h1>
+            <p>ICT Student & Future Tech Innovator</p>
+            <a href="#about" class="cta-button">Discover My Journey</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div>
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Ccircle cx='150' cy='150' r='150' fill='%23667eea'/%3E%3Ctext x='150' y='160' font-family='Arial' font-size='60' fill='white' text-anchor='middle'%3EAC%3C/text%3E%3C/svg%3E" alt="Profile" class="profile-img">
+            </div>
+            <div class="about-text">
+                <p>Hello! I'm Alex Chen, a passionate Information and Communication Technology student with a deep fascination for emerging technologies and their potential to transform our world.</p>
+                <p>Currently pursuing my degree in ICT, I'm exploring various domains including software development, cybersecurity, data analytics, and artificial intelligence. My goal is to bridge the gap between innovative technology and practical solutions that benefit society.</p>
+                <p>When I'm not coding or studying, you'll find me experimenting with new programming languages, contributing to open-source projects, or exploring the latest tech trends. I believe in continuous learning and staying ahead of the curve in this rapidly evolving field.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">💻</div>
+                <h3>Programming</h3>
+                <p>Proficient in Python, JavaScript, Java, and C++. Experience with web development frameworks and mobile app development.</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🔒</div>
+                <h3>Cybersecurity</h3>
+                <p>Understanding of network security, ethical hacking, and security protocols. Certified in basic cybersecurity practices.</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">📊</div>
+                <h3>Data Analytics</h3>
+                <p>Experience with data visualization, statistical analysis, and machine learning using Python libraries and SQL databases.</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🌐</div>
+                <h3>Web Development</h3>
+                <p>Full-stack development experience with HTML, CSS, JavaScript, React, Node.js, and various databases.</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">☁️</div>
+                <h3>Cloud Computing</h3>
+                <p>Familiar with AWS, Azure, and Google Cloud Platform. Experience with cloud deployment and serverless architecture.</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🤖</div>
+                <h3>AI & Machine Learning</h3>
+                <p>Working knowledge of neural networks, deep learning frameworks, and natural language processing applications.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">🔐</div>
+                <div class="project-content">
+                    <h3>Secure Chat Application</h3>
+                    <p>End-to-end encrypted messaging app built with React and Node.js, featuring real-time communication and advanced security protocols.</p>
+                    <div class="project-links">
+                        <a href="#" onclick="showDemo('chat')">Live Demo</a>
+                        <a href="#" onclick="showCode('chat')">View Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">📈</div>
+                <div class="project-content">
+                    <h3>Data Visualization Dashboard</h3>
+                    <p>Interactive dashboard for analyzing and visualizing complex datasets using D3.js and Python backend for data processing.</p>
+                    <div class="project-links">
+                        <a href="#" onclick="showDemo('dashboard')">Live Demo</a>
+                        <a href="#" onclick="showCode('dashboard')">View Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">🧠</div>
+                <div class="project-content">
+                    <h3>AI Study Assistant</h3>
+                    <p>Machine learning-powered study companion that helps students organize notes, create quizzes, and track learning progress.</p>
+                    <div class="project-links">
+                        <a href="#" onclick="showDemo('ai')">Live Demo</a>
+                        <a href="#" onclick="showCode('ai')">View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Let's Connect!</h3>
+                <p>I'm always excited to discuss technology, collaborate on projects, or explore new opportunities. Feel free to reach out!</p>
+                <div class="contact-item">
+                    <i>📧</i>
+                    <span>alex.chen@email.com</span>
+                </div>
+                <div class="contact-item">
+                    <i>📱</i>
+                    <span>+1 (555) 123-4567</span>
+                </div>
+                <div class="contact-item">
+                    <i>📍</i>
+                    <span>San Francisco, CA</span>
+                </div>
+                <div class="contact-item">
+                    <i>💼</i>
+                    <span>linkedin.com/in/alexchen</span>
+                </div>
+            </div>
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="text" placeholder="Subject" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Alex Chen. All rights reserved. | Designed with passion for technology</p>
+    </footer>
+    </body>
+</html>
